@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="115146" started-at="2018-02-28T06:47:04Z" finished-at="2018-02-28T06:49:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="115146" started-at="2018-02-28T06:47:04Z" finished-at="2018-02-28T06:49:00Z">
+      <class name="com.opencart.tests.OrderHistory">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.opencart.tests.OrderHistory@6a41eaa2]" name="startReport" is-config="true" duration-ms="1397" started-at="2018-02-28T12:17:03Z" finished-at="2018-02-28T12:17:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:com.opencart.tests.OrderHistory@6a41eaa2]" name="Initialize" is-config="true" duration-ms="30043" started-at="2018-02-28T12:17:05Z" finished-at="2018-02-28T12:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="Orderhistory()[pri:49, instance:com.opencart.tests.OrderHistory@6a41eaa2]" name="Orderhistory" duration-ms="84692" started-at="2018-02-28T12:17:35Z" finished-at="2018-02-28T12:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Orderhistory -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.opencart.tests.OrderHistory@6a41eaa2]" name="getResult" is-config="true" duration-ms="3" started-at="2018-02-28T12:19:00Z" finished-at="2018-02-28T12:19:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Orderhistory status=SUCCESS method=OrderHistory.Orderhistory()[pri:49, instance:com.opencart.tests.OrderHistory@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="closingbrowser()[pri:0, instance:com.opencart.tests.OrderHistory@6a41eaa2]" name="closingbrowser" is-config="true" duration-ms="61" started-at="2018-02-28T12:19:00Z" finished-at="2018-02-28T12:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.opencart.tests.OrderHistory@6a41eaa2]" name="endReport" is-config="true" duration-ms="266" started-at="2018-02-28T12:19:00Z" finished-at="2018-02-28T12:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.opencart.tests.OrderHistory -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

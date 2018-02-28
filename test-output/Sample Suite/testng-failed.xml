@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sample Suite]">
+  <test name="Regression test cases(failed)">
+    <classes>
+      <class name="com.opencart.tests.TestNG2">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.opencart.tests.TestNG2 -->
+      <class name="com.opencart.tests.OpencartDemo">
+        <methods>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="Orderhistory"/>
+          <include name="getResult"/>
+          <include name="Initialize"/>
+          <include name="closingbrowser"/>
+        </methods>
+      </class> <!-- com.opencart.tests.OpencartDemo -->
+    </classes>
+  </test> <!-- Regression test cases(failed) -->
+</suite> <!-- Failed suite [Sample Suite] -->
