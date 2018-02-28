@@ -5,7 +5,7 @@
         <classes>  
         <class name="com.opencart.tests.OpencartDemo"/>
         <class name="com.opencart.tests.OrderHistory"/>             
-               
+        class name="com.opencart.tests.RegistrationAddToCart"/>      
         </classes> 
     </test>   
      
