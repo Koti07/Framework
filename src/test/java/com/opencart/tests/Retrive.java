@@ -1,5 +1,7 @@
 package com.opencart.tests;
 
+
+
 import java.beans.Statement;
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
@@ -7,12 +9,12 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class JDBCConnection {
+public class Retrive {
 
-	public static void insertdata(String sFirstName,String sLastName,String semail,String spassword,String sdob,String sgender,String slocation,String szipcode,String smobile,String sRoleid) throws InstantiationException, IllegalAccessException, ClassNotFoundException {
+	public static void main (String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException{
 
 		
-		
+		//void insertdata(String sFirstName,String sLastName,String semail,String spassword,String sdob,String sgender,String slocation,String szipcode,String smobile,String sRoleid) throws InstantiationException, IllegalAccessException, ClassNotFoundException {
 
 		Connection conn = null;
 		String dbName = "QET Database";
@@ -36,6 +38,8 @@ public class JDBCConnection {
 	//	String szipcode = "500082";
 	//	String smobile = "0123456789";
 	//	String sRoleid = "101";
+		
+		String ID,A,B;
 		
 		
 		try {
@@ -63,23 +67,17 @@ public class JDBCConnection {
 
 
 
-result = stmt.executeQuery("select * from dbo.registration ");
+result = stmt.executeQuery("select * from dbo.t1 ");
 			
-			System.out.println("FirstName	"	+ "LastName	"+"Email		"	+	"Password	"+"dob	"+"gender	"+"location	"+"zipcode	"+"mobile	"+"Role	");
+			//System.out.println("FirstName	"	+ "LastName	"+"Email		"	+	"Password	"+"dob	"+"gender	"+"location	"+"zipcode	"+"mobile	"+"Role	");
 			while(result.next()){
-				FirstName=result.getString("FirstName");
-				LastName = result.getString("LastName");
-				Email=result.getString("Email");
-				Password=result.getString("Password");
-				dob = result.getString("dob");
-				gender=result.getString("gender");
-				location=result.getString("location");
-				zipcode = result.getString("zipcode");
-				mobile=result.getString("mobile");
-				Role_ID=result.getString("Role_ID");
+				ID=result.getString("id");
+				A = result.getString("a");
+				B=result.getString("b");
+			
 			
 				
-				System.out.println(FirstName+"		"+LastName+"		"+Password+"		"+dob+" 		"+gender+"		"+location+"		"+zipcode+"		 "+mobile+"		"+Role_ID);
+				System.out.println(ID+"		"+A+"		"+B);
 				
 				
 				
